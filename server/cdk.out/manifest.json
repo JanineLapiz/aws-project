@@ -23,7 +23,7 @@
         "validateOnSynth": false,
         "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-deploy-role-${AWS::AccountId}-${AWS::Region}",
         "cloudFormationExecutionRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-cfn-exec-role-${AWS::AccountId}-${AWS::Region}",
-        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/57470cb1d8a070d2d7bf3538fe3c834a84ad0f6d08045cd4cfe1ce0a455d79a0.json",
+        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/2e78bdea61c2e4f0e2671781b6373dcb8586bfed55bd4f1f10343198a5eb4735.json",
         "requiresBootstrapStackVersion": 6,
         "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version",
         "additionalDependencies": [
@@ -56,7 +56,7 @@
         "/space-finder/SpaceApi/Deployment/Resource": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "SpaceApiDeploymentA2B9E765bd3204b13334f034b0b6da16f7d48dcb"
+            "data": "SpaceApiDeploymentA2B9E765a95dc89734ebbe167f219fcd09d7907e"
           }
         ],
         "/space-finder/SpaceApi/DeploymentStage.prod/Resource": [
@@ -109,22 +109,16 @@
             "data": "SpaceTableA2492A9A"
           }
         ],
-        "/space-finder/helloLambda/ServiceRole/Resource": [
-          {
-            "type": "aws:cdk:logicalId",
-            "data": "helloLambdaServiceRoleBB046714"
-          }
-        ],
-        "/space-finder/helloLambda/Resource": [
-          {
-            "type": "aws:cdk:logicalId",
-            "data": "helloLambda79DCE371"
-          }
-        ],
         "/space-finder/helloLambdaNodeJs/ServiceRole/Resource": [
           {
             "type": "aws:cdk:logicalId",
             "data": "helloLambdaNodeJsServiceRole17C143C3"
+          }
+        ],
+        "/space-finder/helloLambdaNodeJs/ServiceRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "helloLambdaNodeJsServiceRoleDefaultPolicy14D90D8C"
           }
         ],
         "/space-finder/helloLambdaNodeJs/Resource": [
